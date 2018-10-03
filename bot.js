@@ -78,7 +78,7 @@ const w = ['./w2.png'];
                        
                         ctx.font = "bold 17px Arial";
                         ctx.fontSize = '100px';
-                        ctx.fillStyle = "#00a1ff";
+                        ctx.fillStyle = "#ff0000";
                         ctx.textAlign = "center";
                         ctx.fillText(member.user.username, 220, 120);
  
