@@ -74,11 +74,11 @@ const w = ['./w2.png'];
                         ctx.fontSize = '100px';
                         ctx.fillStyle = "#a500a8";//
                         ctx.textAlign = "center";
-                        ctx.fillText(`welcome to Server`, 206, 161);
+                        ctx.fillText(`welcome to Server`, 210, 161);
                        
                         ctx.font = "bold 17px Arial";
                         ctx.fontSize = '100px';
-                        ctx.fillStyle = "#ff0000";
+                        ctx.fillStyle = "#ff6401";
                         ctx.textAlign = "center";
                         ctx.fillText(member.user.username, 220, 120);
  
