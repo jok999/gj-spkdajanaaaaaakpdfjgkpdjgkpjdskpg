@@ -50,7 +50,8 @@ let welcomer = member.guild.channels.find("name","welcome");
 
 client.on('guildMemberAdd', member => {
      const welcomer =  member.guild.channels.find('name', 'welcome');
-      const w = ['./w1.png '];
+const w = ['./w1.png'];
+ 
          let Image = Canvas.Image,
             canvas = new Canvas(400, 200),
             ctx = canvas.getContext('2d');
@@ -79,7 +80,7 @@ client.on('guildMemberAdd', member => {
                         ctx.fontSize = '100px';
                         ctx.fillStyle = "#ff0000";
                         ctx.textAlign = "center";
-                        ctx.fillText(member.user.username, 200, 115);
+                        ctx.fillText(member.user.username, 202, 125);
  
                 let Avatar = Canvas.Image;
                               let ava = new Avatar;
@@ -88,7 +89,7 @@ client.on('guildMemberAdd', member => {
                               ctx.arc(77, 101, 62, 0, Math.PI*2);
                               ctx.stroke();
                                  ctx.clip();
-                                 ctx.drawImage(ava, 13, 23, 128, 126);  
+                                 ctx.drawImage(ava, 13, 38, 128, 126);  
                          
                
                              
